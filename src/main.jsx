@@ -11,7 +11,7 @@ import About from "./pages/About.jsx";
 import Contact from "./pages/Contact.jsx";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
-  <BrowserRouter>
+  <BrowserRouter basename="/">
     <Routes>
       <Route path="/" element={<Layout />}>
         <Route index element={<Home />} />
